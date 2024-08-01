@@ -1,0 +1,60 @@
+.navbar {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #121212;
+    min-width: 520px;
+    height: 42px;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: auto 1rem;
+}
+
+.nav-app-icon {
+    width: 28px;
+    height: 28px;
+
+}
+
+.nav-app {
+    transition: background-color 0.2s;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 4px;
+    position: relative;
+    
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 50px;
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap ;
+    transition: opacity 0.2s;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 15px;
+    font-family: Montserrat;
+    border-color: #393939;
+    border-style: solid;
+    border-width: 1px;
+    transition-delay: 0.3s;
+}
+
+.nav-app:hover .tooltip {
+    opacity: 1;
+}
+
+.nav-app:hover {
+    cursor: pointer;
+    background-color: #393939;;
+
+}
