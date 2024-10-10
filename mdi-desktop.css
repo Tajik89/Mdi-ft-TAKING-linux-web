@@ -21,7 +21,7 @@
 }
 
 
-.tooltip {
+.desktop-app .tooltip {
     position: absolute;
     bottom: 50px;
     left: 50px;
