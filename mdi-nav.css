@@ -30,7 +30,7 @@
     
 }
 
-.tooltip {
+.nav-app .tooltip {
     position: absolute;
     bottom: 50px;
     font-size: 8px;
