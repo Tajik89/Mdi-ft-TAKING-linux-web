@@ -3,60 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>Linux</title>
-    <link rel="stylesheet" href="mdi-body.css">
-    <link rel="stylesheet" href="mdi-nav.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/desktop.css">
+    <style>
+        body {
+            zoom: 1.7;
+        }
+    </style>
 </head>
 <body>
     <header></header>
-    <nav class="navbar">
-        <div class="nav-app">
+    <nav class="navbar" id="navbar">
+        <div class="nav-app" id="nav-app-1">
             <img src="apps/github-desktop.svg" class="nav-app-icon">
             <div class="tooltip">Github</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-2">
             <img src="apps/1E64_notepad.0.svg" class="nav-app-icon">
             <div class="tooltip">Notepad</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-3">
             <img src="apps/vscode.svg" class="nav-app-icon">
             <div class="tooltip">Code OSS</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-4">
             <img src="apps/pycharm-professional.svg" class="nav-app-icon">
             <div class="tooltip">Pycharm</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-5">
             <img src="apps/atom.svg" class="nav-app-icon">
             <div class="tooltip">Atom</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-6">
             <img src="apps/chromium.svg" class="nav-app-icon">
             <div class="tooltip">Chromium</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-7">
             <img src="apps/twitter.svg" class="nav-app-icon">
             <div class="tooltip">Twitter</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-8">
             <img src="apps/bash.svg" class="nav-app-icon">
             <div class="tooltip">Terminal</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-9">
             <img src="apps/gnome-settings.svg " class="nav-app-icon">
             <div class="tooltip">Settings</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-10">
             <img src="apps/cacao-oj8.svg" class="nav-app-icon">
             <div class="tooltip">Java</div>
         </div>
-        <div class="nav-app">
+        <div class="nav-app" id="nav-app-11">
             <img src="apps/epiphany.svg" class="nav-app-icon">
             <div class="tooltip">Explore</div>
         </div>
     </nav>
+
+    <div class="nav-app-rc" id="customMenu">
+        <button>New Windows</button>
+        <hr>
+        <button>App Details</button>
+        <hr>
+        <button>Unpin</button>
+    </div>
+
 </body>
 </html>
